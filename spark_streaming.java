@@ -23,10 +23,10 @@ public class spark_streaming  {
 
         //Setting the system properties twitter4j.oauth.consumerKey, twitter4j.oauth.consumerSecret,
         // twitter4j.oauth.accessToken and twitter4j.oauth.accessTokenSecret to connect to the twitter API
-        System.setProperty("twitter4j.oauth.consumerKey", "9HWI95JHLtKfrtsli8c8h8QBx");
-        System.setProperty("twitter4j.oauth.consumerSecret", "6rq04n4mxFY1QRGN6bGxo1UvRv0t4WsO1hvJNeEh9IXZOMSmOo");
-        System.setProperty("twitter4j.oauth.accessToken", "3650362332-vMPWUSLtjUKC7nWGirA8wj8z4AZGXyJkjrR4Nqn");
-        System.setProperty("twitter4j.oauth.accessTokenSecret", "fPP5vnfS0Ldawi2GlCV5RTBG25q7hkXjIQYOIyWOIj8JS");
+        System.setProperty("twitter4j.oauth.consumerKey", "************************************************");
+        System.setProperty("twitter4j.oauth.consumerSecret", "************************************************");
+        System.setProperty("twitter4j.oauth.accessToken", "************************************************");
+        System.setProperty("twitter4j.oauth.accessTokenSecret", "************************************************");
 
         SparkConf conf = new SparkConf()
                 .setAppName("LSDA_Assignment5") //Appname to uniquely identify a job in cluster(isn't much relevant to our task here)
